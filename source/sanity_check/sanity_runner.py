@@ -33,7 +33,7 @@ def run_sanity(sanity: Sanity) -> List[str]:
     return result
 
 
-def get_run_sanity_result(sanity: Sanity) -> SanityResult:
+def get_sanity_run_result(sanity: Sanity) -> SanityResult:
     sanity_result = SanityResult()
 
     try:
