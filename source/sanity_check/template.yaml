@@ -1,0 +1,15 @@
+Generic:
+- class: MySanity
+  nice_name: Mon Sanity
+  fail_level: error
+  default_check: true
+- class: MyOtherSanity
+  nice_name: Mon Autre Sanity
+  fail_level: warning
+  default_check: true
+
+Animation:
+- class: AnimCurveCheck
+  nice_name: Check Animation Curves
+  fail_level: error
+  default_check: true
