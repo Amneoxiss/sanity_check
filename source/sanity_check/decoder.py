@@ -46,6 +46,7 @@ def create_sanity_from_data(data: Dict[str, Union[str, bool]]) -> Sanity:
         
         return sanity_obj
 
+
 def decode_yaml(yaml_file_path) -> Dict[str, List[Sanity]]:
     with open(yaml_file_path, 'r') as read_file:
         data: dict = yaml.safe_load(read_file)
