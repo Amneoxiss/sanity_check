@@ -1,0 +1,23 @@
+Section A:
+- class: sanity_check.exemple.PassNoFixSanity
+  nice_name: Pass No Fix Sanity
+  fail_level: error
+  default_check: true
+- class: sanity_check.exemple.FailNoFixSanity
+  nice_name: Fail No Fix Sanity
+  fail_level: error
+  default_check: true
+- class: sanity_check.exemple.FailAndFailingFixSanity
+  nice_name: Fail And Failing FixSanity
+  fail_level: error
+  default_check: true
+
+Section B:
+- class: sanity_check.exemple.FailAndFixSanity
+  nice_name: Err Fail And Fix Sanity
+  fail_level: error
+  default_check: false
+- class: sanity_check.exemple.FailAndFixSanity
+  nice_name: Warn Fail And Fix Sanity
+  fail_level: warning
+  default_check: true

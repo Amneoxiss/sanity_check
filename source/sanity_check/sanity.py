@@ -5,9 +5,9 @@ from typing import List
 
 
 class SanityFailLevel(Enum):
-    ERROR = auto()
-    WARNING = auto()
-    INFO = auto()
+    ERROR = "error"
+    WARNING = "warning"
+    INFO = "info"
 
 
 class Sanity(ABC):
