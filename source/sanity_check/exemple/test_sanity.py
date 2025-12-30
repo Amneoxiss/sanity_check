@@ -24,8 +24,8 @@ class FailAndFailingFixSanity(Sanity):
         return
 
 class FailAndFixSanity(Sanity):
-    def __init__(self, nice_name: str, fail_level: SanityFailLevel, default_check: bool):
-        super().__init__(nice_name, fail_level, default_check)
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
 
         self._has_run = False
 
